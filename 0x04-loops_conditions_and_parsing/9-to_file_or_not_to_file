@@ -1,20 +1,20 @@
 #!/usr/bin/env bash
-# blah
+# desscription
 
-holbertonfile="holbertonschool"
-if [ -e "$holbertonfile" ];
+hf="holbertonschool"
+if [ -e "$hf" ];
 then
 	echo "holbertonschool file exists"
-	if [ -s "$holbertonfile" ];
+	if [ -s "$hf" ];
 	then
 		echo "holbertonschool file is not empty"
-		if [ -f "$holbertonfile" ];
+		if [ -f "$hf" ];
 		then
 			echo "holbertonschool file is a regular file"
 		fi
 	else
 		echo "holbertonschool file is empty"
-		if [ -f "$holbertonfile" ];
+		if [ -f "$hf" ];
 		then
 			echo "holbertonschool file is a regular file"
 		fi

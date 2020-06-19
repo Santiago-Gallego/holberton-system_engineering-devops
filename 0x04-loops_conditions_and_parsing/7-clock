@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
-#Bash script that displays tht time for 12 hours
+#Bash script
 
-HCOUNTER=0
+HC=0
 
-while [ $HCOUNTER -lt 13 ]; do
-      MCOUNTER=1
-      echo "Hour: "$HCOUNTER
-      while [ $MCOUNTER -lt 60 ]; do
-      	    echo $MCOUNTER
-	    let MCOUNTER=MCOUNTER+1
+while [ $HC -lt 13 ]; do
+      MC=1
+      echo "Hour: "$HC
+      while [ $MC -lt 60 ]; do
+      	    echo $MC
+	    let MC=MC+1
       done
-      let HCOUNTER=HCOUNTER+1
+      let HC=HC+1
 done

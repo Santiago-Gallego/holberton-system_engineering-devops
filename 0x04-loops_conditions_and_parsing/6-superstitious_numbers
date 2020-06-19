@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# Blah
+
+COUNTER=1
+while [ $COUNTER -lt 21 ];
+do
+      echo $COUNTER
+      case $COUNTER in
+      	   4)
+		echo "back luck from China"
+		;;
+	   9)
+		echo "back luck from Japan"
+		;;
+	   17)
+		echo "bad luck from Italy"
+		;;
+      esac
+      let COUNTER=COUNTER+1
+done

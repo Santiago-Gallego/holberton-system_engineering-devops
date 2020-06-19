@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Loops from 1 to 10, prints different msg
+# Loops from 1 to 10
 
 COUNTER=1
 while [ $COUNTER -lt 11 ]; do

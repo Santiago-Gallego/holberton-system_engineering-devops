@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
-# Blah
+# description
 
-COUNTER=1
-while [ $COUNTER -lt 21 ];
+COUNT=1
+while [ $COUNT -lt 21 ];
 do
-      echo $COUNTER
-      case $COUNTER in
+      echo $COUNT
+      case $COUNT in
       	   4)
 		echo "back luck from China"
 		;;
@@ -16,5 +16,5 @@ do
 		echo "bad luck from Italy"
 		;;
       esac
-      let COUNTER=COUNTER+1
+      let COUNT=COUNT+1
 done

@@ -3,11 +3,9 @@ include stdlib
 file_line { 'declare file':
   path    => '/etc/ssh/ssh_config',
   line    => 'IdentityFile ~/.ssh/holberton',
-  replace => true,
 }
 
 file_line { 'passwd auth off':
   path    => '/etc/ssh/ssh_config',
   line    => 'PasswordAuthentication no',
-  replace => true,
 }

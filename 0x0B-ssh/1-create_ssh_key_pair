@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# creates RSA key
+ssh-keygen -b 4096 -f holberton -N betty

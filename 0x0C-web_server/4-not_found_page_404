@@ -3,9 +3,8 @@
 sudo apt update
 sudo apt -y install nginx
 sudo apt-get -y install nginx
-sudo service nginx start
-echo "Ceci n'est pas une page" | sudo tee /var/www/html/cust_404.html
-lines="\\\terror_page 404 /cust_404.html;\n\tlocation = /cust_404.html {\n\t\troot /var/www/html;\n\t\tinternal;\n\t}"
+echo "Ceci n'est pas une page" | /var/www/html/cust_404.html
+lines="\\\terror_page 404 /cust_404.html;\n\tlocation = /cust_404.html {\n\t\troot /usr/share/nginx/html;\n\t\tinternal;\n\t}"
 sudo sed -i "27i $lines" /etc/nginx/sites-available/default
 sudo service nginx restart
 sudo service nginx reload

@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 # Script to install nginx server
-apt-get -y update
-apt-get -y install nginx
-echo "Holberton School" > /var/www/html/index.html
-echo "Ceci n'est pas une page\n" > /var/www/html/cust_404.html
-sed -i 's/root \/var\/www\/html;/root \/var\/www\/html;\n\trewrite ^\/redirect_me http:\/\/google.com permanent;/' /etc/nginx/sites-available/default
-sed -i 's/root \/var\/www\/html;/root \/var\/www\/html;\n\terror_page 404 \/custom_404.html;/' /etc/nginx/sites-available/default
-service nginx start
+sudo apt-get -y update
+sudo apt-get -y install nginx
+sudo service nginx start
+echo "Ceci n'est pas une page" | sudo tee /var/www/html/cust_404.html
+lines="\\\terror_page 404 /cust_404.html;\n\tlocation = /cust_404.html {\n\t\troot /var/www/html;\n\t\tinternal;\n\t}"
+sed -i "27i $lines" /etc/nginx/sites-available/default
+sudo service nginx restart
+sudo service nginx reload

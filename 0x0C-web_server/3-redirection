@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# nginx installation
+sudo apt-get -y update
+sudo apt-get -y install nginx
+sudo service nginx start
+sudo sed -i "s/location \/ /location \/redirect_me /" /etc/nginx/sites-available/default
+sudo sed -i "s/try_files \$uri \$uri\/ =404;/return 301 https:\/\/twitter.com\/home;/" /etc/nginx/sites-available/default
+sudo service nginx restart
+sudo service nginx reload

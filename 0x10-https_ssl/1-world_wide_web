@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# displays information about subdomains
+# Prints subdomains info
 
 subdomain_inf () {
     RT=$(dig $2.$1 | grep -A1 'ANSWER SECTION' | awk '{print $4}' | tail -n 1)

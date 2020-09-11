@@ -24,12 +24,9 @@ Directories | Description
 [0x0E-web_stack_debugging_1](./0x0E-web_stack_debugging_1) | Advanced web stack debugging
 [0x0F-load_balancer](./0x0F-load_balancer) | Introduction to load-balancing and installing HAProxy on our own servers
 [0x10-https_ssl](./0x10-https_ssl) | Introduction to HTTPS, SSL and getting our own SSL certificate for our servers
-[0x11-what_happens_when_your_type_holbertonschool_com_in_your_browser_and_press_enter](./0x11-what_happens_when_your_type_holbertonschool_com_in_your_browser_and_press_enter) | Blog post explaining a web infrastructure
 [0x12-web_stack_debugging_2](./0x12-web_stack_debugging_2) | More advanced web stack debugging
 [0x13-firewall](./0x13-firewall) | Introduction to firewalls and setting up of a firewall on our own servers
 [0x14-mysql](./0x14-mysql) | Introduction to Database clusters and setting up a Primary-Replica MySQL cluster on our own servers
-[0x15-api](./0x15-api) | Querying an API and exporting data to JSON or CSV format
-[0x16-api_advanced](./0x16-api_advanced) | Advanced API queries, recursive requests
 
 ## Author
 

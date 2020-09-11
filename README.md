@@ -16,7 +16,6 @@ Directories | Description
 [0x06-regular_expressions](./0x06-regular_expressions) | Introduction to regular expressions in Ruby
 [0x07-networking_basics](./0x07-networking_basics) | Introduction to networking
 [0x08-networking_basics_2](./0x08-networking_basics_2) | Advanced networking
-[0x09-web_infrastructure_design](./0x09-web_infrastructure_design) | Diagrams illustrating a Web Infrastructure (LAMP)
 [0x0A-configuration_management](./0x0A-configuration_management) | Introduction to configuration management with Puppet
 [0x0B-ssh](./0x0B-ssh) | Managing our own servers, and sshing into it
 [0x0C-web_server](./0x0C-web_server) | Introduction to web servers and installing Nginx on our servers

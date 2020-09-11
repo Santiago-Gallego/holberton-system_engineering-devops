@@ -33,4 +33,4 @@ Directories | Description
 
 ## Author
 
-Santiago Gallego Cohort 11 Bogotá-Colombia
+Santiago Gallego Bogotá-Colombia

@@ -1,10 +1,9 @@
 # 0x15. API
 
 ## Description
-The aim of this project is to write automated tasks in Python instead of Bash.
-Those tasks focus on getting data from an API and exporting it in JSON or CSV format.
+This project is to write automated tasks in Python instead of Bash.
+Those tasks focus on getting data from an API and export.
 
-## Table of contents
 Files | Description
 ----- | -----------
 [0-gather_data_from_an_API.py](./0-gather_data_from_an_API.py) | Python script that, using this REST API, for a given employee ID, returns information about his/her TODO list progress
